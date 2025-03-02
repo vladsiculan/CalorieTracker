@@ -1,4 +1,4 @@
-#💪 Calorie Tracker App 🍎
+💪 Calorie Tracker App 🍎
 
 ## Description
 
