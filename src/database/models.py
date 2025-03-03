@@ -27,16 +27,6 @@ Session = sessionmaker(bind=engine)
 # Create a Session instance
 session = Session()
 
-class BaseWithID(Base):
-    """
-    Abstract base class that provides an `id` column for all derived models.
-
-    Attributes:
-        id (int): Primary key column, auto-incremented.
-    """
-    __abstract__ = True
-    id = Column(Integer, primary_key=True, autoincrement=True)
-
 class User(Base):
     """
     Represents a user in the calorie tracker application.
